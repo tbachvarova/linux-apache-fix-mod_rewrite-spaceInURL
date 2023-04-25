@@ -20,3 +20,4 @@ After the last Apache upgrade under Ubuntu, I solve the problem of returning 403
 ![fix Apache space in URL - mod_rewrite](img.jpg)
 
 
+I hope that this fix should be helpful to somebody :-)
