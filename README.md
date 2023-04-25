@@ -14,6 +14,6 @@ After the last Apache upgrade under Ubuntu, I solve the problem of returning 403
 >RewriteBase /
 >RewriteRule ^([^/])/([^/])$ /index.php?lang=$1&page=$2 [NC,L,**B,BNP**]
 
-![fix Apache space in URL - mod_rewrite](\img.jpg)
+![fix Apache space in URL - mod_rewrite](img.jpg)
 
 
