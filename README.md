@@ -6,7 +6,9 @@ After the last Apache Upgrade, I've had some issues with "spaces in URL" in mod_
 The URLs that contain "space" and have been replaced with **%20** start to return error 403 by Apache.
 
 I found that the update was actually to fix this:
-https://security-tracker.debian.org/tracker/CVE-2023-25690
+https://github.com/apache/httpd/commit/d78a166fedd9d02c23e4b71d5f53bd9b2c4b9a51
+
+(https://security-tracker.debian.org/tracker/CVE-2023-25690 )
 
 After the last Apache upgrade under Ubuntu, I solve the problem of returning 403 by adding `[NC,L,B,BNP]` at the end of the domain conf file, adn it works for me.
 
